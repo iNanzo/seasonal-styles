@@ -1,51 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="robots" content="noindex,nofollow" />
-    <title>Seasonal Styles</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Seasonal Styles</title>
 
-    <!-- Default base style -->
-    <link rel="stylesheet" href="css/default.css" />
-    
-    <!-- Seasonal stylesheet added dynamically by JS -->
-
-    <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet" />
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <link rel="stylesheet" href="css/default.css" />
+  <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
 </head>
 <body>
-    <header>
-        <img src="images/four-seasons.gif" alt="Seasonal Logo" id="logo" />
-        <h1 class="masthead">Eddie Browser</h1>
-        <nav>
-            <ul>
-                <li class="seasons"><a href="Default">Default</a></li>
-                <li class="seasons"><a href="Spring">Spring</a></li>
-                <li class="seasons"><a href="Summer">Summer</a></li>
-                <li class="seasons"><a href="Fall">Fall</a></li>
-                <li class="seasons"><a href="Winter">Winter</a></li>
-            </ul>
-        </nav>
-        
-    </header>
+  <header>
+    <img src="images/four-seasons.gif" alt="Seasonal Logo" id="logo" />
+    <h1 class="masthead">Eddie Browser</h1>
+    <nav>
+      <ul>
+        <li class="seasons"><a href="#" data-season="Default">Default</a></li>
+        <li class="seasons"><a href="#" data-season="Spring">Spring</a></li>
+        <li class="seasons"><a href="#" data-season="Summer">Summer</a></li>
+        <li class="seasons"><a href="#" data-season="Fall">Fall</a></li>
+        <li class="seasons"><a href="#" data-season="Winter">Winter</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main class="wrapper">
-        <header><h3>Outfitter for All Seasons!</h3></header>
-    
-        <p id="description" class="desc">Browse our collection tailored to your current season.</p>
-    
-        <img src="images/300x400.png" alt="Season Wear" id="wear" />
-    
-        <footer>
-            <p>
-                <small>&copy; 2025 by Newton Hoang, All Rights Reserved ~ 
-                <a id="html-checker" href="#">Check HTML</a> ~ 
-                <a id="css-checker" href="#">Check CSS</a></small>
-            </p>
-        </footer>
-    </main>    
+  <main class="wrapper">
+    <header><h3>Outfitter for All Seasons!</h3></header>
+    <p id="description" class="desc">
+      Browse our seasonal collections for the perfect outfit, no matter the time of year. From sunshine to snowfall, we’ve got you covered.
+    </p>
+    <img src="images/300x400.png" alt="Season Wear" id="wear" />
+    <footer>
+      <p>
+        <small>&copy; 2025 by Newton Hoang, All Rights Reserved ~
+        <a id="html-checker" href="#">Check HTML</a> ~
+        <a id="css-checker" href="#">Check CSS</a></small>
+      </p>
+    </footer>
+  </main>
 
-    <script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
